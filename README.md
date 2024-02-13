@@ -2,7 +2,7 @@
 ## launch steps
 This project can be launched using a global launch file or by executing a series of commands in the terminal to start individual components. Below are the instructions for both methods.
 
-## Quick Launch
+### Quick Launch
 If you prefer a quick start, you can launch the entire project using a single launch file:
 ```console
 roslaunch globallaunch.launch
@@ -10,7 +10,7 @@ roslaunch globallaunch.launch
 This command initializes all necessary nodes and brings up the simulation environment and the robot ready for marker detection and navigation tasks.
 
 
-## Step-by-Step Launch
+### Step-by-Step Launch
 For systems with lower performance, or if you wish to manually control the launch process, follow the steps below. Execute each command in a new terminal window, in the given order:
 
 Start the Gazebo simulation with the ROSBot in the assignment-specific environment:
